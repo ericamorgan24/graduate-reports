@@ -1,12 +1,17 @@
 README
 
+Description:
+A C++ program that generates a set of reports based on data from Canada’s National Graduate Survey (NGS) from the years 2000-2015. Done using the NGS data provided for you in the grad.dat file. This file contains data on the number of post-secondary graduates, their gender, what degree they earned, and how many of them were employed after graduation, for each province in Canada, and in Canada as a whole, in the years 2000, 2005, 2010, and 2015.
+
 Program Author:
-  Erica Morgan (101015691)
+  Erica Morgan
+  
 Purpose:
   This program manages runs a system of report generators.
   This program uses NGS data in grad.dat to generate different types of reports.
   The user will be presented a menu and prompted to select the type of report they want, 
   then the program will generate that report and print it to the terminal.
+  
 Source Files:
   main.cc
   Control.cc
@@ -18,6 +23,7 @@ Source Files:
   ReportByRegionGenerator.cc
   ReportByYearGenerator.cc
   ReportTopBottomGenerator.cc
+  
 Header Files:
   Property.h
   Control.h
@@ -29,17 +35,20 @@ Header Files:
   ReportByRegionGenerator.h
   ReportByYearGenerator.h
   ReportTopBottomGenerator.h
+  
 Additional Files:
   Makefile
   README.txt
   FinalUML.pdf
   grad.dat
+  
 Instructions:
   Download tar file
   Go to directory where tar file is located
   Extract files with command: tar -xvf final.tar
   Compile and link program using Makefile command: make
   Run program using command: ./main
+  
 Explanation of Additional Reports:
   1. ReportByGenderGenerator.cc
      This report is meant to highlight the differences in employment that exist
