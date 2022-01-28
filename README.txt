@@ -1,7 +1,7 @@
 README
 
 Description:
-A C++ program that generates a set of reports based on data from Canada’s National Graduate Survey (NGS) from the years 2000-2015. Done using the NGS data provided for you in the grad.dat file. This file contains data on the number of post-secondary graduates, their gender, what degree they earned, and how many of them were employed after graduation, for each province in Canada, and in Canada as a whole, in the years 2000, 2005, 2010, and 2015.
+A C++ program developed for Linux OS that generates a set of reports based on data from Canada’s National Graduate Survey (NGS) from the years 2000-2015. Done using the NGS data provided for you in the grad.dat file. This file contains data on the number of post-secondary graduates, their gender, what degree they earned, and how many of them were employed after graduation, for each province in Canada, and in Canada as a whole, in the years 2000, 2005, 2010, and 2015.
 
 Program Author:
   Erica Morgan
